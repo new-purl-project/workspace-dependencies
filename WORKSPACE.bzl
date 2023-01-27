@@ -193,3 +193,4 @@ def maven_dependencies(callback = jar_artifact_callback):
     for hash in list_dependencies():
         callback(hash)
 
+
